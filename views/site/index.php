@@ -20,6 +20,20 @@ $this->title = 'Sorteos Onda 100';
         </div>
     </div> 
     <div class="row">
+		<div class="col-xs-12 col-lg-12">
+			<h1>Bienvenidos al sitio de <i>SORTEOS ONDA 100</i></h1>
+
+			<p>Agradecemos su apoyo y seguimiento de nuestros medios radiales y televisivos.</p>
+			<p>Tambien agradecemos a nuestros ausipiantes que permiten que esto sea posible</p>
+			<p></p><h6>Gracias a los mismo podremos realizar sorteos de gran importancia durante todo este año 2013</h6><p></p>
+			<p>
+			</p><h4>Una de las finalidades principales de la aplicación es permitir a los oyentes tener un contacto más cercano al medio radial. Si quieres puedes registrarte gratuitamente haciendo click <a href="../usuarios/create">Aqui</a>.</h4>
+			<h4>Ser un usuario registrado del sitio permite tener acceso votaciones online, publicación de comentarios, recepción de listado de ganadores de sorteos, etc.</h4>
+			<h4>Muy pronto estaremos incorporando nuevos servicios e información de su interes.
+			  <p></p>
+			  
+			  </h4>
+		</div>
         <div class="col-xs-12 col-lg-3">
             <h3>Listado de Sorteos</h3>
             <!-- aca pongo el codigo para generar la lista de sorteo generales -->
@@ -33,7 +47,7 @@ $this->title = 'Sorteos Onda 100';
             </ul>      
         </div>
         <div class="col-xs-12 col-lg-9">
-            <p>presentacion de una tabla de ganadores del ultimo sorteo</p>
+            <p>Tabla de ganadores del ultimo sorteo</p>
             <?php
             $model=$model::find()->all();
             // estoy armando la tabla de sorteo con el widget de bootstrap 3
