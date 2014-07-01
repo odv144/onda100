@@ -1,0 +1,3 @@
+Este archvivo es una ayuda memoria para determinados opociones de yii
+ ☐ Ya no se usa mas Yii::app()-> ahora tengo que usar Yii::$app->
+ ☐ 
